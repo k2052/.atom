@@ -22,7 +22,7 @@
   'welcome':
     'showOnStartup': false
   'theme-switcher':
-    'themeOne': 'seti-syntax'
+    'themeOne': 'glacier-syntax'
     'themeTwo': 'Writer'
   'linter': {}
   'autocomplete':
