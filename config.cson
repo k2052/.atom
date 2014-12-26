@@ -13,7 +13,6 @@
       'api-blueprint-preview'
       'archive-view'
       'background-tips'
-      'linter'
       'metrics'
     ]
   'metrics': false
@@ -24,9 +23,8 @@
   'theme-switcher':
     'themeOne': 'glacier-syntax'
     'themeTwo': 'Writer'
-  'linter': {}
   'autocomplete':
     'includeCompletionsFromAllBuffers': true
   'autosave':
     'enabled': true
-  'fuzzy-finder': {}
+  'linter': {}
