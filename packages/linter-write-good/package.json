@@ -1,0 +1,32 @@
+{
+  "name": "linter-write-good",
+  "main": "./lib/init",
+  "linter-package": true,
+  "activationEvents": [],
+  "version": "0.2.2",
+  "description": "A Linter interface for the write-good library.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gepoch/linter-write-good"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "write-good": "~0.7.0",
+    "xregexp": "~2.0.0"
+  },
+  "readme": "# linter-write-good\n\n\nA Linter interface for the [write-good](https://github.com/btford/write-good)\nlibrary. It lints english prose for developers who can't write good and wanna\ndo other stuff good too.\n\nThis provides a variety of english usage text tips when writing documentation\nand commit messages.\n\nThis package requires [Linter](https://github.com/AtomLinter/Linter).\n\n[See it on atom.io](https://atom.io/packages/linter-write-good)\n\n[See it on github.com](https://github.com/gepoch/linter-write-good)\n\n![](https://raw.github.com/gepoch/linter-write-good/master/screenshot.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/gepoch/linter-write-good/issues"
+  },
+  "homepage": "https://github.com/gepoch/linter-write-good",
+  "_id": "linter-write-good@0.2.2",
+  "dist": {
+    "shasum": "614e972c91cc7c3c418fbf4b35a6a853fd4d2e9b"
+  },
+  "_resolved": "/tmp/d-1141126-31300-15dauo9/package.tgz",
+  "_from": "/tmp/d-1141126-31300-15dauo9/package.tgz"
+}

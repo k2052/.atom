@@ -1,0 +1,23 @@
+'global':
+  'editor':
+    'fontFamily': 'Source Code Pro Light'
+    'fontSize': 21
+  'core':
+    'themes': [
+      'seti-ui'
+      'Writer'
+    ]
+    'disabledPackages': [
+      'api-blueprint-preview'
+      'archive-view'
+      'background-tips'
+    ]
+  'metrics': false
+  'exception-reporting':
+    'userId': '78938a71-bafd-523c-d2ba-dd6d54adb512'
+  'welcome':
+    'showOnStartup': false
+  'theme-switcher':
+    'themeOne': 'seti-syntax'
+    'themeTwo': 'Writer'
+  'linter': {}

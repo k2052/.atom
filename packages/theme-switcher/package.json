@@ -1,0 +1,43 @@
+{
+  "name": "theme-switcher",
+  "main": "./lib/theme-switcher",
+  "version": "0.1.0",
+  "description": "Switches between one theme and another. Ideal for light/dark themes like Solarized.",
+  "activationEvents": [
+    "theme-switcher:switch"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/al3x/atom-theme-switcher"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {},
+  "readme": "# Atom Theme Switcher\n\nSwitches between one theme and another when you hit a key. Ideal for themes like Solarized that provide both light and dark versions that you may want to switch to under different lighting conditions.\n\nMapped to F12 by default.\n\nSee also [outdoor-theme](https://github.com/mattapperson/outdoor-theme), which didn't work for me at time of writing but is theoretically automatic and thus much cooler.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/al3x/atom-theme-switcher/issues"
+  },
+  "homepage": "https://github.com/al3x/atom-theme-switcher",
+  "_id": "theme-switcher@0.1.0",
+  "dist": {
+    "shasum": "d46bfc7eaf077f53c94311afbd50c326d4092eb3"
+  },
+  "_resolved": "/tmp/d-1141126-8141-1pwgj4m/package.tgz",
+  "_from": "/tmp/d-1141126-8141-1pwgj4m/package.tgz",
+  "_atomModuleCache": {
+    "version": 1,
+    "dependencies": [],
+    "extensions": {
+      ".coffee": [
+        "lib/theme-switcher.coffee"
+      ],
+      ".json": [
+        "package.json"
+      ]
+    },
+    "folders": []
+  }
+}

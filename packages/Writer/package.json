@@ -1,0 +1,27 @@
+{
+  "name": "Writer",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A nice, readable markdown writing environment for Atom.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cjoh/atom-writer"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readme": "# Atom Writer\n\nA nice, friendly writing-oriented syntax theme for [http://atom.io](Atom). Makes writing and editing prose in Atom a *friendly* experience.\n\nIt looks like this:\n\n![\"Atom Writer Screenshot\"](http://cl.ly/image/2n2Y06372G3s/writer%202014-02-28%2020-28-30%202014-02-28%2020-28-35.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/cjoh/atom-writer/issues"
+  },
+  "homepage": "https://github.com/cjoh/atom-writer",
+  "_id": "Writer@0.1.0",
+  "dist": {
+    "shasum": "858929ada329a5e1bc5b40f0ea41972120885a08"
+  },
+  "_resolved": "/tmp/d-1141126-32073-10cnqj0/package.tgz",
+  "_from": "/tmp/d-1141126-32073-10cnqj0/package.tgz"
+}
