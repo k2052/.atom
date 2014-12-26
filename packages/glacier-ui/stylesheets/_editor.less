@@ -1,0 +1,83 @@
+.atom-pane .item-views .pane-item {
+  background: red;
+}
+
+.scrollbars-visible-always {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: none;
+    background: @color-tree-background !important;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: lighten(@color-tree-background, 7%);
+    -webkit-box-shadow: none !important;
+  }
+
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: lighten(@color-tree-background, 7%);
+  }
+}
+
+.editor.is-focused .cursor-line {
+  background: rgba(255,255,255,.02) !important;
+}
+
+.editor {
+  .highlighted.selection .region {
+    -webkit-animation-name: highlight;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+  }
+
+  .invisible-character {
+    opacity:0.25;
+  }
+
+  .gutter {
+    .line-number {
+      color: #273546;
+      opacity: 1;
+      padding-left: 15px;
+      min-width: 30px;
+      transition: color .2s ease-in;
+
+      &.cursor-line {
+        color: rgba(255,255,255,.5);
+      }
+
+      &.git-line-modified {
+        border-left: none;
+        box-shadow: inset 2px 0 0 0 @color-modified;
+      }
+
+      &.git-line-removed {
+        border-left: none;
+        box-shadow: inset 2px 0 0 0 @color-removed;
+
+        &:before {
+          display: none;
+        }
+      }
+
+      &.git-line-added {
+        border-left: none;
+        box-shadow: inset 2px 0 0 0 @color-added;
+      }
+    }
+  }
+}
+
+@-webkit-keyframes highlight {
+  from {
+    background-color: rgba(56,146,227,0.7);
+  }
+  to {
+    background-color: null;
+  }
+}

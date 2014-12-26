@@ -1,16 +1,20 @@
 'global':
   'editor':
     'fontFamily': 'Source Code Pro Light'
-    'fontSize': 21
+    'fontSize': 18
+    'preferredLineLength': 120
+    'useShadowDOM': true
   'core':
     'themes': [
-      'seti-ui'
-      'Writer'
+      'glacier-ui'
+      'glacier-syntax'
     ]
     'disabledPackages': [
       'api-blueprint-preview'
       'archive-view'
       'background-tips'
+      'linter'
+      'metrics'
     ]
   'metrics': false
   'exception-reporting':
@@ -21,3 +25,8 @@
     'themeOne': 'seti-syntax'
     'themeTwo': 'Writer'
   'linter': {}
+  'autocomplete':
+    'includeCompletionsFromAllBuffers': true
+  'autosave':
+    'enabled': true
+  'fuzzy-finder': {}

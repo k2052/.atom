@@ -1,0 +1,93 @@
+atom-pane-container atom-pane .item-views .pane-item {
+  background: @color-blue-dark;
+  color: #fff;
+  padding: 30px;
+}
+
+.overlay.support-info {
+  top: 50%;
+  margin-top: -178px;
+	display: block;
+  background: fade(@color-white, 96%);
+	padding: 30px 30px;
+	border-radius: @border-radius*2;
+	color: @color-grey-medium;
+
+	a {
+		color: @color-links;
+	}
+
+	.btn {
+		background: lighten(@color-blue-active, 20%);
+		box-shadow: 0 0 0 1px lighten(@color-blue-active, 15%);
+		color: #fff;
+		transition: background-color .1s ease-in;
+
+		&:hover {
+			background: lighten(@color-blue-active, 25%);
+			box-shadow: 0 0 0 1px lighten(@color-blue-active, 15%), 0 1px 1px @color-blue-active;
+		}
+	}
+}
+
+.select-list {
+	margin-top: 0 !important;
+}
+
+.select-list ol.list-group {
+  margin: 0 !important;
+}
+
+.overlay {
+  color: @text-color;
+  padding: @component-padding;
+	line-height: 24px;
+	box-shadow: 0px 1px 2px #000, 0 0 0 2000px rgba(0,0,0,.6);
+
+	.error-message {
+		padding: 10px;
+	}
+
+	::-webkit-scrollbar {
+    display: none;
+  }
+
+	.editor {
+  	padding: 20px;
+
+  	&.mini {
+  		max-height: none;
+  		line-height: 24px;
+			padding: auto 12px;
+  		margin: 0;
+      border-radius: 0;
+	  }
+	}
+
+  .select-list ol.list-group,
+  &.select-list ol.list-group {
+    background-color: lighten(@overlay-background-color, 3%);
+
+    li {
+      padding: @component-padding;
+  		padding: 10px;
+
+      &.two-lines { padding: @component-padding/2 @component-padding; }
+
+      .status.icon {
+        float: right;
+        margin-left: @component-icon-padding;
+
+        &:before {
+          margin-right: 0;
+        }
+      }
+
+      &.selected {
+        .status.icon {
+          color: @text-color-selected;
+        }
+      }
+    }
+  }
+}
