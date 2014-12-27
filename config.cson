@@ -1,9 +1,10 @@
 'global':
   'editor':
     'fontFamily': 'Source Code Pro Light'
-    'fontSize': 17
+    'fontSize': 18
     'preferredLineLength': 120
     'useShadowDOM': true
+    'invisibles': {}
   'core':
     'themes': [
       'glacier-ui'
@@ -28,3 +29,5 @@
   'autosave':
     'enabled': true
   'linter': {}
+  'linter-write-good':
+    'writegoodExecutablePath': '/usr/bin/write-good'
