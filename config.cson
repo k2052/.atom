@@ -1,7 +1,7 @@
 'global':
   'editor':
     'fontFamily': 'Source Code Pro Light'
-    'fontSize': 18
+    'fontSize': 17
     'preferredLineLength': 120
     'useShadowDOM': true
   'core':
